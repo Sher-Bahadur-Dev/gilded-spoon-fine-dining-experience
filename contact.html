@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Reservations | The Gilded Spoon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="contact-page">
+    <div class="preloader"><div class="spinner"></div></div>
+    <header class="header">
+        <nav class="container">
+            <a href="index.html" class="logo">The Gilded Spoon</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html#booking-form" class="btn nav-btn">Book a Table</a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="hero-content">
+                <h1>Contact & Reservations</h1>
+                <p>Join us for an evening to remember.</p>
+            </div>
+        </section>
+        <section class="contact-section" id="booking-form">
+            <div class="container contact-container">
+                <div class="contact-form animate-on-scroll">
+                    <h3>Book Your Table</h3>
+                    <form id="contact-form" action="booking-success.html">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group half-width">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group half-width">
+                            <label for="time">Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <input type="number" id="guests" name="guests" min="1" max="12" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests (Optional)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Confirm Booking</button>
+                    </form>
+                </div>
+                <div class="contact-info animate-on-scroll">
+                    <h3>Our Information</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Culinary Lane, Paris, France</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> reservations@gildedspoon.com</li>
+                    </ul>
+                    <h4>Hours of Operation</h4>
+                    <p><strong>Dinner:</strong> Tuesday - Sunday, 6:00 PM - 11:00 PM</p>
+                    <p><strong>Closed:</strong> Mondays</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="script.js"></script>
+</body>
+</html>
