@@ -3,6 +3,7 @@
 ## Overview
 
 **Project-4** is a food & restaurant web app built using **HTML and JavaScript and HTML5**.
+A food & restaurant web app built with HTML, JavaScript, HTML5, CSS3, featuring food & restaurant discovery. Clean architecture and modular codebase.
 
 ## Features
 
@@ -11,6 +12,12 @@
 ## Tech Stack
 
 - **Languages**: HTML, JavaScript, HTML5, CSS3
+
+## Project Structure
+
+```text
+README.md            # Project documentation and getting started guide.
+```
 
 ## Getting Started
 
@@ -23,7 +30,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sher-Bahadur-417/Project-4.git
+git clone https://github.com/Sher-Bahadur-Dev/Project-4.git
 
 # Navigate into the project folder
 cd Project-4
